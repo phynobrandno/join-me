@@ -1,0 +1,895 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: black;
+    height:40px ;
+    text-align: center;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+
+}
+#header-text{
+    max-width: 1250px;
+    width: 100%;
+    background-color: black;
+    
+
+}
+
+#logo-navbar-icon-section{
+    display: flex;
+    max-width: 1250px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 12px auto;
+}
+.logo{
+    font-size: 25px;
+    color: black;
+}
+#icon-fa{
+    display: none;
+}
+.nav-bar{
+    display: flex;
+    gap: 25px;
+}
+.icon{
+    display: flex;
+    gap: 25px;
+    
+}
+.icon img{
+    width: 25px;
+    height: 25px;
+
+}
+.her0-section{
+max-width: 1250px;
+width: 100%;
+flex-wrap: wrap;
+display: block;
+}
+#ion{
+    margin: 0 30 ;
+}
+#hero-image img{
+    height: 80vh;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: absolute;
+}
+#text{
+    position: relative;
+bottom: -350px;
+color: white;
+font-size: 40px;
+width: 600px;
+height: 48.41;
+max-width: 1250px;
+margin: 25px 30px;
+}
+#text2{
+    position: relative;
+bottom: -350px;
+color: white;
+font-size: 20px;
+width:500px;
+height: 24.2px;
+max-width: 1250px;
+margin: 25px 30px;
+}
+
+#Explored-button{
+    color: black;
+   
+    background-color: white;
+    position: relative;
+    bottom: -290px;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 176px;
+    height: 55px;
+    left: 1100px;
+ gap: 10px;
+ font-size: 24px;
+ margin: 0 40px;
+}
+.new-collection{
+    max-width: 1250px;
+    width: 100%;
+    margin: 400px auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+#coll1{
+    color: black;
+    font-size: 40px;
+    
+}
+#coll2{
+    color: black;
+    font-size: 20px;
+}
+.book-price{
+    max-width: 1250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+flex-wrap: wrap;
+margin: -300px auto;
+}
+.book-price .Box1{
+    text-align: center;
+    margin-bottom: 15PX;
+
+}
+
+.book-price .Box1 img{
+    width: 300px;
+    height: 200px;
+        margin-bottom: 15PX;
+
+}
+.book-price .Box2{
+    margin-bottom: 15PX;
+
+    text-align: center;
+}
+
+.book-price .Box2 img{
+    width: 300px;
+    height: 200px;
+}
+.book-price .Box3{
+    text-align: center;
+    margin-bottom: 15PX;
+
+}
+
+.book-price .Box3 img{
+    width: 300px;
+    height: 200px;
+}
+.book-price .Box4{
+    text-align: center;
+    margin-bottom: 15PX;
+
+}
+
+.book-price .Box4 img{
+    width: 300px;
+    height: 200px;
+}
+.book-price .Box5{
+    text-align: center;
+    margin-bottom: 15PX;
+
+}
+
+.book-price .Box5 img{
+    width: 300px;
+    height: 200px;
+}
+.book-price .Box6{
+    text-align: center;
+    margin-bottom: 15PX;
+
+}
+
+.book-price .Box6 img{
+    width: 300px;
+    height: 200px;
+}
+.book-price .Box7{
+    text-align: center;
+    margin-bottom: 15PX;
+
+}
+
+.book-price .Box7 img{
+    width: 300px;
+    height: 200px;
+}
+.book-price .Box8{
+    text-align: center;
+    margin-bottom: 15px;
+
+
+}
+
+.book-price .Box8 img{
+    width: 300px;
+    height: 200px;
+}
+
+.hero-section2{
+    border-radius: 30px;
+    margin-top: 400px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.hero-section2 img{
+    width: 100%;   
+     border-radius: 30px;
+    
+    }
+    .hero-section2 h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 15px;
+    }
+    .hero-section2 #h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        border-radius: 50px;
+        width: 176px;
+        height: 55px;
+       margin-top:  25px;
+    }
+    #ma{
+        margin-top: 35px;
+    }
+    .hero-section2 .see-details{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    }
+    .hero-section2 p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top:  15px;
+        
+    }
+ 
+.Container7{
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-between;
+    border-radius:20px ;
+    
+    flex-wrap: wrap;
+    max-width: 1250px;
+    width: 100%;
+    margin: 120px auto;
+}
+.Container7 .Box1 {
+    background-image: url("image 130.png");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+ }
+ .Container7 .Box2 {
+    background-image: url("image 127.png");
+    background-size: cover;
+    position: relative;
+     width: 300px;
+     height: 200px;
+     border-radius: 30px;
+     margin-bottom: 20px;
+
+  }
+  .Container7 .Box3 {
+     background-image: url("image 126.png");
+    background-size: cover;
+    position: relative;
+     width: 300px;
+     height: 200px;
+     border-radius: 30px;
+     margin-bottom: 20px;
+
+  }
+  .Container7 .Box4 {
+    background-image: url("image 124.png");
+    background-size: cover;
+    position: relative;
+     width: 300px;
+     height: 200px;
+     border-radius: 30px;
+
+  }
+  .Container7  button{
+    position: absolute;
+    bottom: 10px;
+    right: 75px;
+    margin: 10px;
+    width: 120px;
+    opacity: 5.8;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    align-content: center;
+    
+
+}
+.Container7  h2{
+    position: absolute;
+    bottom: 40px;
+    margin: 10px;
+    width: 150px;
+    opacity: 5.8;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+right: 50px;
+margin-bottom: 20px;
+}
+.Container7 .Box1 h2{
+    left: 65px;
+}
+.Container7 .Box2 h2{
+    right: 60px;
+}
+
+.Container7 .Box3 h2{
+    right: 60px;
+}
+
+.Container7 .Box4 h2{
+    right: 60px;
+}
+    .text-section2 h2{
+        color: white;
+        font-size: 20px;
+    }
+    .text-section2 button{
+        border-radius: 20px;
+        width: 150px;
+        height: 40px;
+        margin-top: 10px;
+
+    }
+    .img-section3{
+        position: relative;
+        border-radius: 20px;
+        gap: 10px;
+    }
+    .img-section3 img{
+        width: 300px;
+        height: 200px;
+        }
+        .text-section3{
+            text-align: center;
+            position: absolute;
+            top: 2380px;
+            right: 440px;
+            color: red;
+        }
+        .text-section3 h2{
+            color: white;
+            font-size: 20px;
+        }
+        .text-section3 button{
+            border-radius: 20px;
+            width: 150px;
+            height: 40px;
+            margin-top: 10px;
+
+        }
+        .img-section4{
+            position: relative;
+            border-radius: 20px;
+            gap: 10px;
+        }
+        .img-section4 img{
+            width: 300px;
+            height: 200px;
+            }
+            .text-section4{
+                text-align: center;
+                position: absolute;
+                top: 2380px;
+                right: 130px;
+                color: red;
+            }
+            .text-section4 h2{
+                color: white;
+                font-size: 20px;
+            }
+            .text-section4 button{
+                border-radius: 20px;
+                width: 150px;
+                height: 40px;
+                margin-top: 10px;
+            }
+
+
+
+            .Container8{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 70px;
+                margin-left: 15px;
+                margin-right: 15px;
+                flex-wrap: wrap;
+                max-width: 1250px;
+                width: 100%;
+                margin: 0 auto;
+            }
+            .Container8 .Box1 input {
+            border-radius: 55px;
+            border: 1px solid black;
+            padding: 15px 30px;
+            margin: 20px 0;
+            }
+            .Container8 .Box1 #submit{
+                background-color: black;
+                color: white;
+            }
+             .Container8 .Box1 h1{
+                font-size: 70px;
+                margin: 15px 0;
+             }
+             .Container8 .Box2 p{
+                margin: 15px 0;
+             }
+             .Container8 .Box3 p{
+                margin: 15px 0;
+             }
+             .Container8 .Box4 p{
+                margin: 15px 0;
+             }
+             .social-icon{
+                max-width: 1250px;
+                width: 100%;
+                margin: 40px auto;
+
+                
+             }
+             .social-icon p{
+                margin:15px 15px;
+             }
+            
+            .social-icon img  {
+                width: 30px;
+                height: 30px;
+                margin-right:3px;
+                margin-left: 15px;
+                margin-right: 15px;
+            
+            }
+            .fo{
+                background-color: black;
+            }
+            .foooter-background{
+                background-color: black;
+                height: 40px;
+                justify-content: space-between;
+                display: flex;
+                align-items: center;
+                margin-top: 44px;
+                max-width: 1250px;
+                width: 100%;
+                margin: 0 auto;
+                
+            }
+            .foooter-background img {
+                width: 10px;
+                height: 10px;
+                margin-left: 15px ;
+                margin-right: 5px;
+
+                
+            
+            }
+            .try {
+                color: white;
+                display: flex;
+                margin-top:3px ;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+            }
+
+            .ph{
+            
+                display: flex;
+                color: white;
+                justify-content: space-between;
+                
+            }
+            .ph p{
+                margin-left:10px ;
+                margin-right: 10px;
+                size: 16px;
+                font: inter;
+            }
+            
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:425px) {
+    #header{
+        background-color: black;
+        height:50px ;
+        text-align: center;
+        justify-content:center;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 15px;
+        align-content: center;
+        text-align: center;
+    
+    }
+    #header-text{
+        max-width: 400px;
+        width: 100%;
+        background-color: black;
+        
+    
+    }
+    #logo-navbar-icon-section{
+        max-width:400px ;
+        width: 100%;
+        justify-content: space-around;
+        margin: 20px auto;
+
+    }
+    .logo{
+        font-size:15px ;
+    }
+    #icon-fa{
+        display: flex;
+        font-size: 25px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .icon{
+        gap: 5px;
+        display: none;
+    }
+    #text-button{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        display: block;
+        
+    }
+    #text{
+        font-size:25px ;
+        bottom: -250px;
+
+    }
+    #text2{
+        font-size: 15px;
+        width: 300px; 
+        text-align: center;
+        bottom: -250px;
+
+    }
+    #Explored-button{
+        left: 60px;
+        gap: 10px;
+        font-size: 24px;
+        justify-content: center;
+        display: block;
+        align-items: center;
+        align-content: center;
+        bottom: -350px;
+    }
+    .new-collection{
+        margin: 500px auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    #coll1{
+        font-size: 25px;
+        
+    }
+    #coll2{
+        font-size: 15px;
+    }
+    .book-price{
+        justify-content: space-evenly;
+        margin: -400px auto;
+    }
+
+    .book-price .Box1 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+    }
+    .book-price .Box2 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+    .book-price .Box3 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+    .book-price .Box4 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+    .book-price .Box5 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+    .book-price .Box6 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+    .book-price .Box7 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+    .book-price .Box8 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+    .book-price .Box1, .book-price  .Box2, .book-price  .Box3,.book-price  .Box4,.book-price  .Box5,.book-price  .Box6,.book-price  .Box7,.book-price  .Box8{
+        margin-bottom: 20px;
+
+    }
+.hero-section2{
+    margin-top: 455px;
+}
+    .hero-section2 img{
+        width: 390px;   
+         border-radius: 30px;
+        
+        }
+        .Container7{
+            max-width: 400px;
+            width: 100%;
+            margin: 50px auto;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-evenly;
+        } 
+        .Container7 .Box1 {
+            background-image: url("image 130.png");
+            background-size: cover;
+            width: 150px;
+            height: 200px;
+            position: relative;
+            border-radius: 30px;
+        
+         }
+         .Container7 .Box2 {
+            background-image: url("image 127.png");
+            background-size: cover;
+            position: relative;
+             width: 150px;
+             height: 200px;
+             border-radius: 30px;
+        
+          }
+          .Container7 .Box3 {
+             background-image: url("image 126.png");
+            background-size: cover;
+            position: relative;
+             width: 150px;
+             height: 200px;
+             border-radius: 30px;
+        
+          }
+          .Container7 .Box4 {
+            background-image: url("image 124.png");
+            background-size: cover;
+            position: relative;
+             width: 150px;
+             height: 200px;
+             border-radius: 30px;
+        
+          }
+          .Container7  button{
+            position: absolute;
+            bottom: 10px;
+            right: 5px;
+            margin: 10px;
+            width: 120px;
+            opacity: 5.8;
+            display: flex;
+            height: 40px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: white;
+            border-radius: 50px;
+            align-content: center;
+            
+        
+        }
+        .Container7  h2{
+            position: absolute;
+            bottom: 40px;
+            margin: 10px;
+            width: 150px;
+            opacity: 5.8;
+            display: flex;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 50px;
+            color: white;
+            font-size: 20px;
+        right: 50px;
+        margin-bottom: 40px;
+
+        }
+        .Container7 .Box1 h2{
+            left: -8px;
+        }
+        .Container7 .Box2 h2{
+            right: -8px;
+        }
+        
+        .Container7 .Box3 h2{
+            right: -8px;
+        }
+        
+        .Container7 .Box4 h2{
+            right: -8px;
+        }
+
+        
+
+
+                        .Container8{
+                            margin-top: 70px;
+                            margin-left: 15px;
+                            margin-right: 15px;
+                            flex-wrap: wrap;
+                            margin-top: 30px;
+                            justify-content: space-evenly;
+                           
+                    
+                        }
+                        .Container8 .Box1 input {
+                        border-radius: 55px;
+                        border: 1px solid black;
+                        padding: 15px 30px;
+                        }
+                        .Container8 .Box1 #submit{
+                            margin-top: 20px;
+                            background-color: black;
+                            color: white;
+                        }
+                         .Container8 .Box1 h1{
+                            font-size: 40px;
+                         }
+                         .Container8 .Box2{
+                            width: 75px;
+                         }
+                         .Container8 p{
+                            font-size: 12px;
+                         }
+                         .wrap-section{
+                            display: flex;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                            max-width: 400px;
+                            width: 100%;
+                         }
+                         .social-icon{
+                            justify-content: center;
+                            align-items: center;
+                            align-content: center;
+                            text-align: center;
+                         }
+                         .social-icon p{
+                            margin-left: 15px;
+                            margin-right: 15px;
+                            text-align: center;
+                         }
+                        
+                        .social-icon img  {
+                            width: 30px;
+                            height: 30px;
+                            margin-right:3px;
+                            margin-left: 15px;
+                            margin-right: 15px;
+                        
+                        }
+                        .foooter-background{
+                            background-color: black;
+                            height: 50px;
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 44px;
+                            font-size: 15px;
+                            flex-wrap: wrap;
+                            text-align: center;
+                            align-content: center;
+                            
+                        }
+                        .foooter-background img {
+                            width: 10px;
+                            height: 10px;
+                            margin-left: 15px ;
+                            margin-right: 5px;
+                            
+                        
+                        }
+                        .try {
+                            color: white;
+                            display: flex;
+                            margin-top:3px ;
+                            text-align: center;
+                            justify-content: center;
+                            align-items: center;
+                            align-content: center;
+                        }
+                       
+                        .ph{
+                            display: flex;
+                            color: white;
+                            justify-content: space-between;
+                            
+                        }
+                        .ph p{
+                            margin-left:10px ;
+                            margin-right: 10px;
+                            font-size: 13px;
+                            font: inter;
+                        }
+            
+
+}
+
+
